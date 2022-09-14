@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 app = FastAPI()
 
-print()
+
 if __name__ == "__main__":
     uvicorn.run(
         "main:app",
